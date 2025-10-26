@@ -1,0 +1,357 @@
+[
+  {
+    "name": "SmallGraph",
+    "verticesCount": 4,
+    "edgesCount": 5,
+    "primMSTEdges": [
+      {
+        "source": "A",
+        "destination": "C",
+        "weight": 1
+      },
+      {
+        "source": "C",
+        "destination": "D",
+        "weight": 2
+      },
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 3
+      }
+    ],
+    "primTotalWeight": 6,
+    "primOps": 5,
+    "primTimeMs": 0,
+    "kruskalMSTEdges": [
+      {
+        "source": "A",
+        "destination": "C",
+        "weight": 1
+      },
+      {
+        "source": "C",
+        "destination": "D",
+        "weight": 2
+      },
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 3
+      }
+    ],
+    "kruskalTotalWeight": 6,
+    "kruskalOps": 19,
+    "kruskalTimeMs": 2
+  },
+  {
+    "name": "MediumGraph",
+    "verticesCount": 10,
+    "edgesCount": 11,
+    "primMSTEdges": [
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 4
+      },
+      {
+        "source": "A",
+        "destination": "C",
+        "weight": 8
+      },
+      {
+        "source": "C",
+        "destination": "E",
+        "weight": 2
+      },
+      {
+        "source": "E",
+        "destination": "F",
+        "weight": 6
+      },
+      {
+        "source": "F",
+        "destination": "G",
+        "weight": 5
+      },
+      {
+        "source": "G",
+        "destination": "H",
+        "weight": 3
+      },
+      {
+        "source": "H",
+        "destination": "I",
+        "weight": 4
+      },
+      {
+        "source": "C",
+        "destination": "D",
+        "weight": 7
+      },
+      {
+        "source": "I",
+        "destination": "J",
+        "weight": 10
+      }
+    ],
+    "primTotalWeight": 49,
+    "primOps": 19,
+    "primTimeMs": 0,
+    "kruskalMSTEdges": [
+      {
+        "source": "C",
+        "destination": "E",
+        "weight": 2
+      },
+      {
+        "source": "G",
+        "destination": "H",
+        "weight": 3
+      },
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 4
+      },
+      {
+        "source": "H",
+        "destination": "I",
+        "weight": 4
+      },
+      {
+        "source": "F",
+        "destination": "G",
+        "weight": 5
+      },
+      {
+        "source": "E",
+        "destination": "F",
+        "weight": 6
+      },
+      {
+        "source": "C",
+        "destination": "D",
+        "weight": 7
+      },
+      {
+        "source": "A",
+        "destination": "C",
+        "weight": 8
+      },
+      {
+        "source": "I",
+        "destination": "J",
+        "weight": 10
+      }
+    ],
+    "kruskalTotalWeight": 49,
+    "kruskalOps": 64,
+    "kruskalTimeMs": 0
+  },
+  {
+    "name": "LargeGraph",
+    "verticesCount": 20,
+    "edgesCount": 20,
+    "primMSTEdges": [
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 5
+      },
+      {
+        "source": "B",
+        "destination": "D",
+        "weight": 7
+      },
+      {
+        "source": "D",
+        "destination": "E",
+        "weight": 4
+      },
+      {
+        "source": "E",
+        "destination": "F",
+        "weight": 2
+      },
+      {
+        "source": "E",
+        "destination": "C",
+        "weight": 3
+      },
+      {
+        "source": "F",
+        "destination": "G",
+        "weight": 8
+      },
+      {
+        "source": "G",
+        "destination": "H",
+        "weight": 5
+      },
+      {
+        "source": "H",
+        "destination": "I",
+        "weight": 9
+      },
+      {
+        "source": "I",
+        "destination": "J",
+        "weight": 7
+      },
+      {
+        "source": "J",
+        "destination": "K",
+        "weight": 6
+      },
+      {
+        "source": "K",
+        "destination": "L",
+        "weight": 8
+      },
+      {
+        "source": "L",
+        "destination": "M",
+        "weight": 5
+      },
+      {
+        "source": "M",
+        "destination": "N",
+        "weight": 3
+      },
+      {
+        "source": "N",
+        "destination": "O",
+        "weight": 4
+      },
+      {
+        "source": "O",
+        "destination": "P",
+        "weight": 9
+      },
+      {
+        "source": "P",
+        "destination": "Q",
+        "weight": 2
+      },
+      {
+        "source": "Q",
+        "destination": "R",
+        "weight": 6
+      },
+      {
+        "source": "R",
+        "destination": "S",
+        "weight": 7
+      },
+      {
+        "source": "S",
+        "destination": "T",
+        "weight": 8
+      }
+    ],
+    "primTotalWeight": 108,
+    "primOps": 38,
+    "primTimeMs": 0,
+    "kruskalMSTEdges": [
+      {
+        "source": "E",
+        "destination": "F",
+        "weight": 2
+      },
+      {
+        "source": "P",
+        "destination": "Q",
+        "weight": 2
+      },
+      {
+        "source": "C",
+        "destination": "E",
+        "weight": 3
+      },
+      {
+        "source": "M",
+        "destination": "N",
+        "weight": 3
+      },
+      {
+        "source": "D",
+        "destination": "E",
+        "weight": 4
+      },
+      {
+        "source": "N",
+        "destination": "O",
+        "weight": 4
+      },
+      {
+        "source": "A",
+        "destination": "B",
+        "weight": 5
+      },
+      {
+        "source": "G",
+        "destination": "H",
+        "weight": 5
+      },
+      {
+        "source": "L",
+        "destination": "M",
+        "weight": 5
+      },
+      {
+        "source": "J",
+        "destination": "K",
+        "weight": 6
+      },
+      {
+        "source": "Q",
+        "destination": "R",
+        "weight": 6
+      },
+      {
+        "source": "B",
+        "destination": "D",
+        "weight": 7
+      },
+      {
+        "source": "I",
+        "destination": "J",
+        "weight": 7
+      },
+      {
+        "source": "R",
+        "destination": "S",
+        "weight": 7
+      },
+      {
+        "source": "F",
+        "destination": "G",
+        "weight": 8
+      },
+      {
+        "source": "K",
+        "destination": "L",
+        "weight": 8
+      },
+      {
+        "source": "S",
+        "destination": "T",
+        "weight": 8
+      },
+      {
+        "source": "H",
+        "destination": "I",
+        "weight": 9
+      },
+      {
+        "source": "O",
+        "destination": "P",
+        "weight": 9
+      }
+    ],
+    "kruskalTotalWeight": 108,
+    "kruskalOps": 135,
+    "kruskalTimeMs": 0
+  }
+]
