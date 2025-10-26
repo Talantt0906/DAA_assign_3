@@ -1,13 +1,20 @@
-City Transportation Network Optimization (Assignment 3)
-Overview
+🚦 City Transportation Network Optimization (Assignment 3)
+📌 Overview
 
-This project implements Prim’s and Kruskal’s algorithms to find the Minimum Spanning Tree (MST) of a city transportation network. The goal is to determine the minimum set of roads that connect all city districts with the lowest possible construction cost.
+This project implements Prim’s and Kruskal’s algorithms to find the Minimum Spanning Tree (MST) of a city transportation network.
+The goal is to determine the minimum set of roads that connect all city districts with the lowest possible construction cost.
 
-The city network is modeled as a weighted undirected graph, where vertices represent city districts, edges represent potential roads, and weights represent construction costs.
+The city network is modeled as a weighted undirected graph:
 
-Project Structure
+Vertices: city districts
 
-src/: Java source code
+Edges: potential roads
+
+Weights: construction costs
+
+🗂 Project Structure
+
+src/ – Java source code
 
 Main.java
 
@@ -15,11 +22,11 @@ Prim.java
 
 Kruskal.java
 
-Graph.java (optional, bonus)
+Graph.java (optional, for bonus)
 
-Edge.java (optional, bonus)
+Edge.java (optional, for bonus)
 
-input/: Input JSON files
+input/ – Input JSON files
 
 SmallGraph.json
 
@@ -27,55 +34,59 @@ MediumGraph.json
 
 LargeGraph.json
 
-output/: Output JSON files
+output/ – Output JSON files
 
 output.json
 
-tests/: Unit tests
+tests/ – Unit tests
 
 MSTTest.java
 
-report/: Analytical report
+report/ – Analytical report
 
 report.pdf
 
-How to Run
+⚙ How to Run
 
 Open the project in VS Code or any Java IDE.
 
-Make sure the Gson library is included in your classpath for JSON parsing.
+Ensure the Gson library is included in the classpath.
 
-Compile the code using javac, including Gson in the classpath.
+Compile the code, including Gson.
 
 Run Main.java.
 
-Check the output folder for output.json containing MST results.
+Check the output folder for MST results in output.json.
 
-Features
+✨ Features
 
-Implements Prim’s algorithm for MST.
+Implements Prim’s and Kruskal’s algorithms for MST.
 
-Implements Kruskal’s algorithm for MST.
+Records for each algorithm:
 
-Records for each algorithm: MST edges, total weight, operation counts, and execution time.
+MST edges and total weight
 
-Supports multiple input datasets (small, medium, large).
+Number of operations (comparisons, unions, etc.)
 
-Includes automated unit tests for correctness and performance.
+Execution time in milliseconds
 
-Results
+Supports multiple input datasets: small, medium, and large graphs.
 
-Both algorithms generate correct MSTs with identical total weights.
+Includes automated unit tests to verify correctness and performance.
+
+📊 Results
+
+Both algorithms consistently produce MSTs with identical total weights.
 
 Prim generally requires fewer operations than Kruskal.
 
-Performance and correctness are verified on small, medium, and large graphs.
+Performance and correctness verified on small, medium, and large graphs.
 
-Bonus
+🏆 Bonus
 
-Includes custom Graph and Edge classes for cleaner code and object-oriented design.
+Custom Graph and Edge classes implemented for cleaner, object-oriented code.
 
-References
+📚 References
 
 Course slides and lecture notes on Minimum Spanning Tree.
 
